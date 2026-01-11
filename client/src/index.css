@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Comic Neue", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(#ccefff, #ffffff);
+  min-height: 100vh;
+  color: #124559;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 8px 14px;
+}
+
+input,
+select {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #cde;
+  width: 100%;
+}
